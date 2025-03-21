@@ -13,7 +13,6 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
     { name: 'Resume', path: '/resume' },
     { name: 'Skills', path: '/skills' },
     { name: 'Education', path: '/education' },
-    { name: 'Blog', path: '/blog' },
     { name: 'Contact', path: '/contact' },
   ]
 

@@ -7,7 +7,6 @@ import About from './pages/About'
 import Resume from './pages/Resume'
 import Skills from './pages/Skills'
 import Education from './pages/Education'
-import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 
 function App() {
@@ -47,7 +46,6 @@ function App() {
             <Route path="/resume" element={<Resume />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/education" element={<Education />} />
-            <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
