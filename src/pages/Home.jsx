@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { FaArrowRight } from 'react-icons/fa'
+import profileAvatar from '../assets/profile-avatar.jpeg'
 
 const Home = () => {
   return (
@@ -30,11 +31,12 @@ const Home = () => {
             </div>
             <div className="lg:w-1/2 flex justify-center">
               <div className="bg-white dark:bg-gray-800 rounded-lg shadow-xl p-2 max-w-md">
-                <div className="aspect-square w-full bg-gray-200 dark:bg-gray-700 rounded overflow-hidden">
-                  {/* Placeholder for Profile Image */}
-                  <div className="w-full h-full flex items-center justify-center bg-primary-100 dark:bg-primary-900">
-                    <span className="text-5xl font-bold text-primary-600 dark:text-primary-400">BH</span>
-                  </div>
+                <div className="aspect-square w-full rounded overflow-hidden">
+                  <img 
+                    src={profileAvatar} 
+                    alt="Brad Highberger" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>
